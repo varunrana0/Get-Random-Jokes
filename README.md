@@ -1,2 +1,2 @@
 # Get-Random-Jokes
-get random jaoke with chucck norris
+get everytime a random joke with chuck norris api.
