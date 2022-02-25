@@ -48,7 +48,7 @@ async function loadRandomJokes(e) {
   const data = await response.json();
 
   let output = "";
-  await data.value.filter((jokes) => {
+  await data.value.map((jokes) => {
     output += `<li>${jokes.joke}</li>`;
   });
   // ul
