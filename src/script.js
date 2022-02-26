@@ -42,7 +42,7 @@ async function loadRandomJokes(e) {
   const jokeInput = document.querySelector(".joke-value").value;
 
   const response = await fetch(
-    `http://api.icndb.com/jokes/random/${jokeInput}`
+    `https://api.icndb.com/jokes/random/${jokeInput}`
   );
 
   const data = await response.json();
