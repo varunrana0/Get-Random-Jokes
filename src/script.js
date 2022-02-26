@@ -51,6 +51,7 @@ async function loadRandomJokes(e) {
   await data.value.map((jokes) => {
     output += `<li>${jokes.joke}</li>`;
   });
+
   // ul
   const jokesArea = document.querySelector(".show-joke");
 
